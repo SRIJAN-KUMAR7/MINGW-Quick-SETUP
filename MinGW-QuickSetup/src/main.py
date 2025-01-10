@@ -5,7 +5,7 @@ from installer import install_mingw
 
 def main():
     print("Welcome to MinGW Quick Setup!")
-    mingw_url = "https://example.com/mingw.zip"  # Replace with actual MinGW download link
+    mingw_url = ""  # Replace with actual MinGW download link
     download_path = os.path.join(os.getcwd(), "mingw.zip")
     install_path = os.path.join(os.getcwd(), "MinGW")
 
